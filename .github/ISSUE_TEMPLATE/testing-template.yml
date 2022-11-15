@@ -24,6 +24,6 @@ body:
     id: ReadSettingExpectationsDoc
     attributes:
       value: |
-        **Have you read the [Setting expectations for beta users](https://docs.google.com/presentation) deck?**
-        - [ ] Yes
-        - [ ] No
+        ### Have you read the [Setting expectations for beta users](https://docs.google.com/presentation) deck?
+          - [ ] Yes
+          - [ ] No
