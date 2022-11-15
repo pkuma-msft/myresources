@@ -30,3 +30,13 @@ body:
         - label: 'No'
     validations:
         required: true
+        
+        
+  - type: input
+    id: Org-Enterprise
+    attributes:
+      label: What are the customers' Org names that would like access?
+      description: https://www.github.com/hashicorp for example
+      placeholder: Organization Names
+    validations:
+        required: true          
