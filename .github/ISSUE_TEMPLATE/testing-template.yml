@@ -1,0 +1,31 @@
+name: ABC Private Beta  Nomination
+description: Nominate a customer for the ABC
+title: "[ABC]: <Customer Name Here>"
+labels: ["triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **View the [release issue](https://www.bing.com) for the ABC Private Beta**
+
+  - type: checkboxes
+    id: GHECSelection
+    attributes:
+      label: Is the customer on GHEC?
+      options:
+        - label: 'Yes'
+        - label: 'No'
+    validations:
+        required: true
+
+     
+  - type: checkboxes
+    id: ReadSettingExpectationsDoc
+    attributes:
+      label: Have you read the [Setting expectations for beta users](https://docs.google.com/presentation) deck?
+      options:
+        - label: 'Yes'
+        - label: 'No'
+    validations:
+        required: true      
