@@ -20,12 +20,12 @@ body:
         required: true
 
      
-  - type: checkboxes
+  - type: markdown
     id: ReadSettingExpectationsDoc
     attributes:
-      label: Have you read the [Setting expectations for beta users](https://docs.google.com/presentation) deck?
-      options:
-        - label: 'Yes'
-        - label: 'No'
-    validations:
+      value: |
+      Have you read the [Setting expectations for beta users](https://docs.google.com/presentation) deck?
+      - [ ] Yes
+      - [ ] No
+      validations:
         required: true      
