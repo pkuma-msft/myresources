@@ -26,8 +26,8 @@ body:
       label: Have you read the doc?
       description: Please read [the doc](https://www/bing.com)
       options:
-        - label: 'Yes'
-        - label: 'No'
+        - label: [Yes](https://www/bing.com)
+        - label: [No](https://www/google.com)
     validations:
         required: true
         
